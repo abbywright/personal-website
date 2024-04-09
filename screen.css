@@ -1,7 +1,7 @@
 /* basics */
 body {
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 15px;
+   font-size: 16px;
    background: #fff;
    margin: 0;
 }
@@ -123,7 +123,7 @@ h4 {
 h4, .research li a, .svfe li a {
    font-weight: 500;
    color: #3737EF;
-   font-size: 16px;
+   font-size: 16.5px;
    padding: 5px 0;
 }
 
