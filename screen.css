@@ -76,8 +76,16 @@ nav a {
    font-style: normal;
 }
 
+h3 {
+   font-size: 17px;
+}
+
 h4 {
    margin: 0;
+   font-weight: 500;
+   color: #6d1fe3;
+   font-size: 16.5px;
+   padding: 5px 0;
 }
 
 .bottom {
@@ -120,17 +128,26 @@ h4 {
 }
 
 /* work */
-h4, .research li a, .svfe li a {
+.research li a {
    font-weight: 500;
    color: #3737EF;
    font-size: 16.5px;
    padding: 5px 0;
+   text-decoration: underline;
+}
+
+.svfe li a {
+   font-weight: 500;
+   color: #d037ef;
+   font-size: 16.5px;
+   padding: 5px 0;
+   text-decoration: underline;
 }
 
 .resume a {
    font-weight: 500;
-   color: #3737EF;
-   font-size: 17px;
+   color: #020223;
+   font-size: 18px;
    text-decoration: underline;
 }
 
