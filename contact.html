@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Abby Wright</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Abby Wright</title>
+      <link rel="stylesheet" href="https://use.typekit.net/zez7mgc.css">
+      <link rel="stylesheet" href="screen.css">
+      <script src="https://kit.fontawesome.com/48f84f34b2.js" crossorigin="anonymous"></script>
+   </head>
 <body>
    <header>
-      <h1>abby wright</h1>
+      <div class="nav-name">
+         <a href="index.html">abby wright</a>
+      </div>
       <nav>
-         <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="work.html">work</a></li>
-            <li><a href="contact.html">contact</a></li>
-         </ul>
+         <a href="about.html" class="nav-link">about</a>
+         <a href="work.html" class="nav-link">work</a>
+         <a href="projects.html" class="nav-link">projects</a>
+         <a href="contact.html" class="nav-link active">contact</a>
       </nav>
    </header>
-   <main>
-   <section class="contact-info">
-      <h2>Contact Information</h2>
-      <ul class="contact-list">
-         <li>abby.wright822@gmail.com</li>
-         <li><a class="contact-link" href="https://linkedin.com/in/abby-wright22" target="_blank">LinkedIn</a></li>
-         <li><a class="contact-link" href="https://github.com/abbywright" target="_blank">GitHub</a></li>
-      </ul>
-   </section>
-   <section class="contact-me">
-      <h2>Contact Me</h2>
-      <form>
-         <div class="name">
-            <label for="name">Name <br><input id="name" type="text" required placeholder="Enter your name:"></label></div>
-         <div class="email">
-            <label for="email">Email <br><input id="email" type="text" required placeholder="Enter your email:"></label></div>
-         <div class="subject">
-            <label for="subject">Subject <br><input id="subject" type="text"></label></div>
-         <div class="comments">
-            <label for="comments">Comments <br>
-               <textarea id="comments" name="comments" placeholder=""></textarea>
-            </label>
+      <section class="contact-info">
+         <h2>Contact Me</h2>
+         <ul class="contact-list">
+            <li><i class="fa fa-envelope fa-fw" aria-hidden="true"></i> abby.wright822@gmail.com</li>
+            <li><a href="https://linkedin.com/in/abby-wright22" target="_blank"><i class="fa fa-linkedin-square fa-fw" aria-hidden="true"></i> LinkedIn</a></li>
+            <li><a href="https://github.com/abbywright" target="_blank"><i class="fa fa-github fa-fw" aria-hidden="true"></i> GitHub</a></li>
+         </ul>
+      </section>
+      <section class="contact-form">
+         <div class="form-column">
+            <h4>Name</h4>
+            <input type="text" name="name" id="name" placeholder="Enter your name: ">
+            <h4>Email</h4>
+            <input type="email" name="email" id="email" placeholder="Enter your email: ">
+            <h4>Subject</h4>
+            <input type="text" name="subject" id="subject">
          </div>
+         <div class="form-column">
+            <h4>Comments</h4>
+            <textarea id="comments" name="comments" placeholder=""></textarea>
             <button onClick="alertMe();" id="target">Submit</button>
-      </form>
-   </section>
-   </main>
-   <nav>
-      <ul class="bottom">
-         <li><a href="index.html">home</a></li>
-         <li><a href="work.html">work</a></li>
-         <li><a href="contact.html">contact</a></li>
-      </ul>
-   </nav>
+         </div>
+      </section>
+   <footer>
+      <div>
+         <a href="index.html"><i class="fa fa-star-o fa-fw" aria-hidden="true"></i> home</a>
+         <a href="about.html"><i class="fa fa-user-circle-o fa-fw" aria-hidden="true"></i> about</a>
+         <a href="work.html"><i class="fa fa-pencil-square-o fa-flip-horizontal fa-fw" aria-hidden="true"></i> work</a>
+         <a href="projects.html"><i class="fa fa-check-square-o fa-fw" aria-hidden="true"></i> projects</a>
+         <a href="contact.html"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i> contact</a>
+      </div>
+  </footer>
 <script src="index.js"></script>
 </body>
 </html>
