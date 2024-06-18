@@ -10,6 +10,7 @@ body {
    align-items: center;
    min-height: 100vh;
    background-color: white;
+   margin: 0;
 }
 
 .home-name {
@@ -29,6 +30,7 @@ body {
    flex: 1;
    flex-flow: row wrap;
    min-width: 300px;
+   box-sizing: border-box;
 }
 
 .Lbox {
@@ -39,6 +41,7 @@ body {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   padding: 20px;
 }
 
 .navbar {
@@ -75,8 +78,16 @@ body {
    height: auto;
 }
 
-@media all and (max-width: 600px) {
+@media (max-width: 600px) {
+   body {
+      justify-content: flex-start;
+      align-items: flex-start;
+   }
+   
    .homepage {
       width: 100%;
+      margin: 30px;
+      flex-direction: column;
    }
 }
+

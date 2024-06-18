@@ -234,9 +234,8 @@ nav {
 }
 
 .visited-places {
-   display: block;
-   margin: 0 auto;
-   padding: 0;
+   display: inline-block;
+   margin: 0;
    line-height: 1.5em;
    columns: 2;
    list-style-type: none;
@@ -245,9 +244,9 @@ nav {
 .visited-places li {
    display: flex;
    padding-bottom: 8px;
-   padding-left: 25px;
+   padding-left: 20px;
    font-size: 1.05em;
-   align-items: center;
+   align-items: baseline;
 }
 
 .visited-places li i {
@@ -260,7 +259,7 @@ nav {
    display: block;
    margin: 0 auto;
    padding: 28px 0 20px 0;
-   width: 40%;
+   width: 100%;
    align-content: center;
    align-items: center;
    text-align: center;
@@ -293,24 +292,25 @@ nav {
    background-color: rgb(170, 0, 204, 0.2);
    border-top: 1px solid rgb(170, 0, 204, 0.4);
    border-bottom: 1px solid rgb(170, 0, 204, 0.4);
+   gap: 15px;
 }
 
-.form-column {
-   flex: 1;
-   padding: 0 8px;
+.form-column1, .form-column2 {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
 }
 
 input[type="text"], input[type="email"], textarea, button {
    padding: 10px;
    font-size: 1.05em;
-   width: 100%;
    border: 2px solid rgb(93, 93, 240, 0.9);
    border-radius: 3px;
 }
 
 textarea {
-   height: auto;
    resize: vertical;
+   height: auto;
 }
 
 button {
@@ -350,28 +350,32 @@ footer a i {
 }
 
 /* responsive */
-
- @media (max-width: 768px) {
+ @media (max-width: 600px) {
    header {
-       flex-direction: column;
-       align-items: center;
+      padding-top: 17px; 
+      flex-direction: column;
+      align-items: center;
    }
 
    nav {
-       display: flex;
-       flex-direction: row; 
-       width: 100%;
-       justify-content: center;
+      display: flex;
+      flex-direction: row; 
+      width: 100%;
+      justify-content: center;
    }
 
    .nav-link {
-       width: auto; 
-       padding: 12px 0 10px 0;
-       text-align: center; 
+      width: auto; 
+      padding: 12px 0 10px 0;
+      text-align: center; 
    }
 }
 
 @media (max-width: 600px) {
+   footer {
+      padding: 20px 0 8px 0;
+   }
+   
    footer div {
       flex-direction: column;
       align-items: center;
@@ -379,12 +383,15 @@ footer a i {
    }
 
    footer a {
-      margin-bottom: 10px;
+      margin-bottom: 12px;
    }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
    .image-grid  {
       display: block;
+    }
+    .img-desc {
+      font-size: .6em;
     }
 }
