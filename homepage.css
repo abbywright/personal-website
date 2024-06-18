@@ -86,7 +86,7 @@ body {
    
    .homepage {
       width: 100%;
-      margin: 30px;
+      margin: 30px 30px 0 30px;
       flex-direction: column;
    }
 }
