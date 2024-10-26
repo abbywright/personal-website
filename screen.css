@@ -154,18 +154,18 @@ nav {
    opacity: 1;
 }
 
-.about-skills p {
+.about-skills p, .fcc-projects p {
    margin-top: 10px;
 }
 
-.about-skills ul li {
+.about-skills ul li, .fcc-projects ul li {
    margin: 10px 0;
    font-size: 1.12em;
    line-height: 1.4em;
    list-style-type: disc;
 }
 
-.skills-list {
+.skills-list, .fcc-list {
    margin: 0;
    padding-left: 30px;
 }
@@ -252,6 +252,10 @@ nav {
 .visited-places li i {
    margin-right: 8px;
    font-size: .9em;
+}
+
+.fcc-project {
+
 }
 
 /* contact */
