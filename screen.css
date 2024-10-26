@@ -180,9 +180,8 @@ nav {
 }
 
 .work-top { 
-   padding: 5px 16px 30px 16px;
-   background-color: rgb(225, 250, 250);
-   border: 1px solid rgb(165, 233, 253, 0.5);
+   margin: 5px 30px;
+   padding: 0px 250px;
 }
 
 .resume {
@@ -209,6 +208,7 @@ nav {
    margin: 12px 0;
    text-decoration: underline;
    text-underline-offset: 0.4em;
+   color: #AA00CC;
 }
 
 .paper-link li a, .svfe-website li a {
