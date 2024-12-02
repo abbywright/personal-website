@@ -175,8 +175,6 @@ nav {
    display: flex;
    margin: 0;
    font-size: 1.25em;
-   text-align: center;
-   justify-content: center;
 }
 
 .work-top { 
@@ -186,7 +184,6 @@ nav {
 
 .resume {
    margin: 20px 0;
-   text-align: center;
 }
 
 .resume-link {
