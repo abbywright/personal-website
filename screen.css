@@ -171,34 +171,29 @@ nav {
 }
 
 /* work */
-.work-intro {
-   display: flex;
-   margin: 0;
-   font-size: 1.25em;
-}
-
 .work-top { 
-   margin: 5px 30px;
-   padding: 0px 250px;
+   margin: 20px 22px;
 }
 
 .resume {
-   margin: 20px 0;
+   margin: 12px 0;
 }
 
 .resume-link {
-   position: relative;
-   padding: 4.5px 8px;
-   font-size: 1.3em;
-   color: black;
+   font-size: 2em;
+   color: #4467c4;
    text-decoration: underline;
    text-underline-offset: 0.2em;
-   align-items: center;
 }
 
 .fa-external-link {
    margin-left: 5.8px;
    font-size: 10px;
+}
+
+.fa-resume {
+   margin-left: 10px;
+   font-size: 16px;
 }
 
 .paper-link, .svfe-website {
