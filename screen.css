@@ -184,6 +184,7 @@ nav {
    color: #4467c4;
    text-decoration: underline;
    text-underline-offset: 0.2em;
+   align-items: left;
 }
 
 .fa-external-link {
